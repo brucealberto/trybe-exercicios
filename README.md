@@ -2,4 +2,4 @@
 
 **Bruce Alberto Ferreira Gonçalves**
 
-[Bruce] (www.google.com)
+[Bruce](www.google.com)
