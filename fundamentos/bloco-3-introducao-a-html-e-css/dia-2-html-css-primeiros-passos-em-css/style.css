@@ -1,0 +1,36 @@
+h1 {
+    font-size: 65px;
+    color: orange;
+    font-family: sans-serif;
+}
+
+body {
+    font-size: 16px;
+    text-align: center;
+}
+
+.back {
+    background-color: mediumseagreen;
+}
+
+p {
+    font-weight: 600px;
+    font-size: 3em;
+}
+
+ul {
+    line-height: 2;
+    text-decoration: underline;
+}
+
+#ama {
+    background-color: yellow;
+}
+
+#ver {
+    background-color: red;
+}
+
+#mar {
+    background-color: brown;
+}
