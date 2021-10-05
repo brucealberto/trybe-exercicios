@@ -1,0 +1,49 @@
+div:hover {
+  border: 2px solid magenta;
+}
+
+.corpri {
+  background-color: red;
+}
+
+.corpri h3 {
+  
+  text-decoration: underline;
+  font-style: italic;
+}
+
+.corsec {
+  background-color: green;
+}
+.corsec h3 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.corcom {
+  background-color: blue;
+  font-size: 25px;
+
+}
+
+.corcom h3 {
+  font-family: monospace;
+  font-style: italic;
+}
+
+.coresc {
+  background-color: rgb(61, 59, 59);
+}
+
+.coresc h3 {
+  letter-spacing: 4px;
+  color: cornsilk;
+}
+
+.corcla {
+  background-color: rgb(202, 193, 193);
+}
+
+.corcla h3 {
+  font-weight: 100;
+  font-style: italic;
+}
