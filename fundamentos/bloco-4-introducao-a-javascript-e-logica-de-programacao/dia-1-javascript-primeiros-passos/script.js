@@ -45,3 +45,23 @@ if (num > 0) {
 } else {
   console.log("zero")
 }*/
+
+// Exercicio 05
+
+/*const ang1 = 60;
+const ang2 = 60;
+const ang3 = 60;
+
+let somaAng = ang1 + ang2 + ang3;
+
+let angPos = ang1 > 0 && ang2 > 0 && ang3 > 0;
+
+if (angPos) {
+  if (somaAng === 180){
+    console.log(true);
+  } else {
+    console.log(false);
+  };
+} else {
+  console.log("Erro, Angulo inválido")
+}*/
