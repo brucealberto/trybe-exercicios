@@ -33,3 +33,15 @@ if (num1 > num2 && num1 > num3) {
 } else {
   console.log("O maior número é",num3,"que é váriavel num3");
 }*/
+
+// Exercicio 04
+
+/*const num = 0;
+
+if (num > 0) {
+  console.log("positive")
+} else if (num < 0) {
+  console.log("negative")
+} else {
+  console.log("zero")
+}*/
