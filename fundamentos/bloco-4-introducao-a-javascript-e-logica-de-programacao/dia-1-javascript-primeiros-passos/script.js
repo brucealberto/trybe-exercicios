@@ -126,3 +126,14 @@ if (n1 % 2 == 0 || n2 % 2 == 0 || n3 % 2 == 0) {
   console.log("não é par");
 }*/
 
+// Exercicio 09
+
+/*const n1 = 3;
+const n2 = 4;
+const n3 = 5;
+
+if(n1 % 2 == 1 || n2 % 2 == 1 || n3 % 2 == 1) {
+  console.log("É ímpar");
+} else {
+  console.log("Não é ímpar");
+}*/
