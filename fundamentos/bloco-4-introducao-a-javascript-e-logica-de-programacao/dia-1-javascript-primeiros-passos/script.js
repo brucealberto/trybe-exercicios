@@ -113,3 +113,16 @@ if (nota >= 90 && nota <= 100) {
 } else {
   console.log("Conceito F")
 }*/
+
+// Exercicio 08
+
+/*const n1 = 8;
+const n2 = 7;
+const n3 = 9;
+
+if (n1 % 2 == 0 || n2 % 2 == 0 || n3 % 2 == 0) {
+  console.log("é par");
+} else {
+  console.log("não é par");
+}*/
+
