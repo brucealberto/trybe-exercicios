@@ -65,3 +65,31 @@ if (angPos) {
 } else {
   console.log("Erro, Angulo inválido")
 }*/
+
+// Exercicio 06
+
+/*let chessPiece = 'Torre';
+
+switch(chessPiece.toLowerCase()) {
+  case 'rei':
+    console.log("Rei -> Pode mover-se em qualquer direção, porém apenas uma casa por vez");
+    break;
+  case 'rainha':
+    console.log("Rainha -> vertical, horizontal e diagonal");
+    break;
+  case 'torre':
+    console.log("Torre -> reto, vertical e horizontal");
+    break;
+  case 'bispo':
+    console.log("Bispo -> diagonal, quantas casas quiser");
+    break;
+  case 'cavalo':
+    console.log("Cavalo -> duas casas na horizontal e uma na vertical");
+    break;
+  case 'peão':
+    console.log("Peão -> uma casa para frente");
+    break;
+  default:
+    console.log("Você não inseriu a peça correta!");
+    break;  
+}*/  
