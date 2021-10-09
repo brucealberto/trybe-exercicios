@@ -137,3 +137,19 @@ if(n1 % 2 == 1 || n2 % 2 == 1 || n3 % 2 == 1) {
 } else {
   console.log("Não é ímpar");
 }*/
+
+// Exercicio 10 
+
+/*const custoProduto = 15;
+const valorVenda = 50;
+
+// let valorCustoTotal = custoProduto * (20/100); # minha linha de raciocinio
+// let lucro = valorVenda - valorCustoTotal; # minha linha de raciocinio
+
+if (custoProduto >= 0 && valorVenda >= 0) {
+  const valorCustoTotal = custoProduto * 1.2;
+  const lucro = (valorVenda - valorCustoTotal) * 1000;
+  console.log(lucro);
+} else {
+  console.log("Número inválido")
+}*/
