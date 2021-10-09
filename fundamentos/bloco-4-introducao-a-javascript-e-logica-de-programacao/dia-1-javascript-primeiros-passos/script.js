@@ -92,4 +92,24 @@ switch(chessPiece.toLowerCase()) {
   default:
     console.log("Você não inseriu a peça correta!");
     break;  
-}*/  
+}*/
+
+// Exercicio 07
+
+/*let nota = 15;
+
+if (nota >= 90 && nota <= 100) {
+  console.log("Conceito A");
+} else if (nota >= 80 && nota <= 100) {
+  console.log("Conceito B");
+} else if (nota >= 70 && nota <= 100) {
+  console.log("Conceito C");
+} else if (nota >= 60 && nota <= 100) {
+  console.log("Conceito D");
+} else if (nota >= 50 && nota <= 100) {
+  console.log("Conceito E");
+} else if (nota < 0 || nota > 100) {
+  console.log("Número inválido!!")
+} else {
+  console.log("Conceito F")
+}*/
