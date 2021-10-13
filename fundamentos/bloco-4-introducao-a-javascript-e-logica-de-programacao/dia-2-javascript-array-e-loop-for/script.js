@@ -58,3 +58,21 @@ for (let numero = 0; numero < numbers.length; numero += 1) {
 }
 
 console.log(maiorNumero)*/
+
+// Exercicio 06
+
+let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
+let qtImpar = 0;
+for (let numero = 0; numero < numbers.length; numero += 1) {
+
+  if (numbers[numero] % 2 !== 0) {
+    qtImpar += 1;
+  }
+
+}
+
+if (qtImpar === 0) {
+  console.log('nenhum valor ímpar encontrado')
+} else {
+  console.log(qtImpar)
+}
