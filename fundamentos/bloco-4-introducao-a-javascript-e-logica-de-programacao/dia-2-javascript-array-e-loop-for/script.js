@@ -89,3 +89,13 @@ for (let numero = 0; numero < numbers.length; numero +=1) {
 }
 
 console.log(menorNumero)*/
+
+// Exercicio 08
+
+/*let numArray = [];
+
+for (let numero = 1; numero <= 25; numero += 1) {
+
+  numArray.push(numero)
+}
+console.log(numArray)*/
