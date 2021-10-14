@@ -61,7 +61,7 @@ console.log(maiorNumero)*/
 
 // Exercicio 06
 
-let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
+/*let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
 let qtImpar = 0;
 for (let numero = 0; numero < numbers.length; numero += 1) {
 
@@ -75,4 +75,17 @@ if (qtImpar === 0) {
   console.log('nenhum valor ímpar encontrado')
 } else {
   console.log(qtImpar)
+}*/
+
+// Exercicio 07
+
+/*let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
+let menorNumero = numbers[0];
+
+for (let numero = 0; numero < numbers.length; numero +=1) {
+  if (numbers[numero] < menorNumero) {
+    menorNumero = numbers[numero]
+  }
 }
+
+console.log(menorNumero)*/
