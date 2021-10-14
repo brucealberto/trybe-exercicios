@@ -99,3 +99,12 @@ for (let numero = 1; numero <= 25; numero += 1) {
   numArray.push(numero)
 }
 console.log(numArray)*/
+
+// Exercicio 09
+/*
+let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
+
+for (let numero = 0; numero < numbers.length; numero += 1) {
+  divisao = numbers[numero] / 2;
+  console.log(divisao);
+}*/
