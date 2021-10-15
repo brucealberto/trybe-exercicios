@@ -4,5 +4,10 @@ let info = {
   nota: 'Namorada do personagem principal nos quadrinhos do Pato Donald',
 };
 
-// Exdercicio 01
-console.log('Bem vinda, ' + info.personagem);
+// Exercicio 01
+//console.log('Bem vinda, ' + info.personagem);
+
+// Exercicio 02
+
+info.recorrente = 'Sim';
+console.log(info)
