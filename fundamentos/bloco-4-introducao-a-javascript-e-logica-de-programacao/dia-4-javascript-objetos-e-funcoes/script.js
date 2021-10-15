@@ -13,6 +13,12 @@ let info = {
 // console.log(info)
 
 // Exercicio 03
-for (let key in info) {
+/*for (let key in info) {
   console.log(key)
+}*/
+
+// Exercicio 04
+
+for(let key in info){
+  console.log(info[key])
 }
