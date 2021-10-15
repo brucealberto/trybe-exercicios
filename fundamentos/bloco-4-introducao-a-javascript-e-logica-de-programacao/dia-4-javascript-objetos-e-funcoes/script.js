@@ -9,5 +9,10 @@ let info = {
 
 // Exercicio 02
 
-info.recorrente = 'Sim';
-console.log(info)
+ info.recorrente = 'Sim';
+// console.log(info)
+
+// Exercicio 03
+for (let key in info) {
+  console.log(key)
+}
