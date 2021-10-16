@@ -15,7 +15,7 @@ console.log(palindrome('ovo'));*/
 
 // Exercicio 02
 
-function recebeArray(valueArray) {
+/*function recebeArray(valueArray) {
   let indiceMaior = 0;
   for (let key in valueArray) {
     if (valueArray[indiceMaior] < valueArray[key]) {
@@ -25,4 +25,19 @@ function recebeArray(valueArray) {
   return indiceMaior;
   //indexOf
 }
-console.log(recebeArray([2, 3, 6, 7, 10, 1]));
+console.log(recebeArray([2, 3, 6, 7, 10, 1]));*/
+
+// Exercicio 03
+
+function menorValor(array){
+  let indiceMenor = 0;
+  
+  for(let key in array){
+    if(array[indiceMenor] > array[key]){
+      indiceMenor = key
+    }
+  }
+  return indiceMenor;
+}
+
+console.log(menorValor([2, 4, 6, 7, 10, 0, -3]));
