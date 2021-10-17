@@ -59,7 +59,7 @@ console.log(nomes(['José', 'Lucas', 'Nádia', 'Fernanda', 'Cairo', 'Joana']))*/
 
 // Exercicio 05
 
-function repeticao(array){
+/*function repeticao(array){
   let numeroInt = 0 ;
   for(let key in array){
     if(array[numeroInt] == array[key]){
@@ -68,4 +68,16 @@ function repeticao(array){
   }
   return array[numeroInt]
 }
-console.log(repeticao([2, 3, 2, 5, 8, 2, 3]));
+console.log(repeticao([2, 3, 2, 5, 8, 2, 3]));*/
+
+// Exercicio 06
+
+function somatoria(numero) {
+  //let n = 5;
+  let soma = 0;
+  for (let index = 1; index <= numero; index += 1) {
+    soma += index
+  }
+  return soma;
+}
+console.log(somatoria(5));
