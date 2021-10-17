@@ -29,7 +29,7 @@ console.log(recebeArray([2, 3, 6, 7, 10, 1]));*/
 
 // Exercicio 03
 
-function menorValor(array){
+/*function menorValor(array){
   let indiceMenor = 0;
   
   for(let key in array){
@@ -40,4 +40,19 @@ function menorValor(array){
   return indiceMenor;
 }
 
-console.log(menorValor([2, 4, 6, 7, 10, 0, -3]));
+console.log(menorValor([2, 4, 6, 7, 10, 0, -3]));*/
+
+// Exercicio 04
+
+function nomes(array) {
+  let maiorNome = array[0];
+  for (let key in array) {
+    if(maiorNome.length < array[key].length){
+      maiorNome = array[key];
+    }
+    
+  }
+  return maiorNome
+}
+
+console.log(nomes(['José', 'Lucas', 'Nádia', 'Fernanda', 'Cairo', 'Joana']))
