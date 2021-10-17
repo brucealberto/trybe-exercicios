@@ -72,7 +72,7 @@ console.log(repeticao([2, 3, 2, 5, 8, 2, 3]));*/
 
 // Exercicio 06
 
-function somatoria(numero) {
+/*function somatoria(numero) {
   //let n = 5;
   let soma = 0;
   for (let index = 1; index <= numero; index += 1) {
@@ -80,4 +80,22 @@ function somatoria(numero) {
   }
   return soma;
 }
-console.log(somatoria(5));
+console.log(somatoria(5));*/
+
+// Exercico 07
+
+function verificaFimPalavra(word, ending) {
+  // let final = ;
+
+  if (word[word.length - 1] == ending[ending.length - 1]) {
+    return true;
+  } else {
+    return false;
+  }
+
+
+  // for(let i in ending){
+  // }
+}
+
+console.log(verificaFimPalavra('trybe', 'be'))
