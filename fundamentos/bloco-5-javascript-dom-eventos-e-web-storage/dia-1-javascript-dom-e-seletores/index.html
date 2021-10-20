@@ -88,11 +88,21 @@
     corrigeTexto();
 
     // Crie uma função que modifique todo o texto da tag <p> para maiúsculo.
-      function modificaTexto(){
-        let modificar = document.querySelectorAll('p')[0]
-        modificar.innerHTML = modificar.innerHTML.toUpperCase();
+    function modificaTexto() {
+      let modificar = document.querySelectorAll('p')[0]
+      modificar.innerHTML = modificar.innerHTML.toUpperCase();
+    }
+    modificaTexto();
+
+    // Crie uma função que exiba o conteúdo de todas as tags <p> no console
+
+    function exibirTags() {
+      let tags = document.querySelectorAll('p')
+      for (let index = 0; index < tags.length; index += 1) {
+        console.log(tags[index].innerHTML);
       }
-      modificaTexto();
+    }
+    exibirTags();
   </script>
 </body>
 
