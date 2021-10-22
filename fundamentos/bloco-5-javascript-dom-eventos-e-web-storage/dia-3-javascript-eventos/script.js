@@ -48,11 +48,13 @@ for (let index = 0; index < dezDaysList.length; index += 1) {
 }
 }
 countDays();
-// }
-//temos o array dezDaysList
-// criar uma função que crie dinamicamente cada dia do calendário e os adicione como filhos/filhas da tag <ul> com ID "days"
-//  os dias 29 e 30 já estão no array
 
-// . Os dias devem estar contidos em uma tag <li> , e todos devem ter a classe day . Ex: <li class="day">3</li>
-// . Os dias 24, 25 e 31 são feriados e, além da classe day , devem conter também a classe holiday . Ex: <li class="day holiday">24</li>
-// . Os dias 4, 11, 18 e 25 são Sexta-feira. Eles devem conter a classe day e a classe friday . Ex: <li class="day friday">4</li>
+// Exercicio 02
+ function botaoFeriado(Feriados){
+let criarBotao = document.createElement('button');
+criarBotao.id = 'btn-holiday';
+criarBotao.innerHTML = Feriados
+ let botaoPai = document.querySelector('.buttons-container');
+botaoPai.appendChild(criarBotao)
+ }
+botaoFeriado('Sexta-feira')
