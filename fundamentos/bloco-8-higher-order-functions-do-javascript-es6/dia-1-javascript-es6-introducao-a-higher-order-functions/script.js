@@ -15,10 +15,32 @@
 // };
 // console.log(newEmployees(pessoaContratada))
 // Exercicio 2  
-const checaNumeros = (meuNumero, numero) => meuNumero === numero;
+// const checaNumeros = (meuNumero, numero) => meuNumero === numero;
 
-const resultadoSorteio = (meuNumero, callback) => {
-  const numero = Math.floor(Math.random() * 5) + 1;
-  return callback(meuNumero, numero) ? 'Tente Novamente' : 'Parabéns você Ganhou!';
-}
-console.log(resultadoSorteio(3, checaNumeros));
+// const resultadoSorteio = (meuNumero, callback) => {
+//   const numero = Math.floor(Math.random() * 5) + 1;
+//   return callback(meuNumero, numero) ? 'Tente Novamente' : 'Parabéns você Ganhou!';
+// }
+// console.log(resultadoSorteio(3, checaNumeros));
+
+//Exercicio 3
+const RIGHT_ANSWERS = ['A', 'C', 'B', 'D', 'A', 'A', 'D', 'A', 'D', 'C'];
+const STUDENT_ANSWERS = ['A', 'N.A', 'B', 'D', 'A', 'C', 'N.A', 'A', 'D', 'B'];
+
+const repeat = (respostasCorretas, respostaAluno, check) => {
+  let contador = 0;
+  for (let index = 0; index < respostasCorretas.length; index += 1) {
+    const retornoCheck = check(respostasCorretas[index], respostaAluno[index]);
+    contador += retornoCheck;
+  }
+  return `Resultado final: ${contador} corretas`;
+};
+
+console.log(repeat(RIGHT_ANSWERS, STUDENT_ANSWERS, (rAnswer, uAnswer) => {
+  if (rAnswer === uAnswer) {
+    return 1;
+  } if (uAnswer === 'N.A') {
+    return 0;
+  }
+  return -0.5;
+}));
