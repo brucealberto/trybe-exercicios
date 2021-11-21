@@ -72,16 +72,34 @@ const books = [
 
 // 2 - Retorne o nome do livro de menor nome.
 // Dica: use a função forEach .
-function smallerName() {
-  let nameBook;
-  // escreva aqui o seu código
-books.forEach((book) => {
-  if(!nameBook || book.name.length < nameBook.length){
-    nameBook = book.name
-  }
+// function smallerName() {
+//   let nameBook;
+//   // escreva aqui o seu código
+// books.forEach((book) => {
+//   if(!nameBook || book.name.length < nameBook.length){
+//     nameBook = book.name
+//   }
 
-})
-  // Variável nameBook que receberá o valor do menor nome;
-  return nameBook;
+// })
+//   // Variável nameBook que receberá o valor do menor nome;
+//   return nameBook;
+// }
+// console.log(smallerName());
+
+// 3 - Encontre o primeiro livro cujo nome possui 26 caracteres.
+const expectedResult = {
+  author: {
+    birthYear: 1948,
+    name: 'George R. R. Martin',
+  },
+  genre: 'Fantasia',
+  id: 1,
+  name: 'As Crônicas de Gelo e Fogo',
+  releaseYear: 1991,
+};
+
+function getNamedBook() {
+  // escreva seu código aqui
+  return books.find((book) => book.name.length === 26).name
 }
-console.log(smallerName());
+console.log(getNamedBook());
