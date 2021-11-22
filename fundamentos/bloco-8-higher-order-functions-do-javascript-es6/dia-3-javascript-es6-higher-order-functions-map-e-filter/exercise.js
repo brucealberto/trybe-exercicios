@@ -210,15 +210,24 @@ const books = [
 // console.log(fantasyOrScienceFictionAuthors())
 
 //6 - Crie um array com o nome de todos os livros com mais de 60 anos de publicação.
-const expectedResult = [
-  'O Senhor dos Anéis',
-  'Fundação',
-  'O Chamado de Cthulhu',
-];
+// const expectedResult = [
+//   'O Senhor dos Anéis',
+//   'Fundação',
+//   'O Chamado de Cthulhu',
+// ];
 
-function oldBooks() {
-  // escreva seu código aqui`
-  const currentYear = new Date().getFullYear();
-  return books.filter((book) => currentYear - book.releaseYear > 60 ).map((book) => book.name)
+// function oldBooks() {
+//   // escreva seu código aqui`
+//   const currentYear = new Date().getFullYear();
+//   return books.filter((book) => currentYear - book.releaseYear > 60 ).map((book) => book.name)
+// }
+// console.log(oldBooks());
+//7 - Encontre o nome do livro escrito pela pessoa cujo nome registrado começa com três iniciais.
+//Dica: cada inicial termina com um ponto.
+const expectedResult = 'O Senhor dos Anéis';
+
+function authorWith3DotsOnName() {
+  // escreva seu código aqui
+  return books.find((book) => (book.author.name.split(' ').filter((word) => word.endsWith('.')).length === 3)).name
 }
-console.log(oldBooks());
+console.log(authorWith3DotsOnName())
