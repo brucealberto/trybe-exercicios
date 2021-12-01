@@ -61,7 +61,7 @@ sendMarsTemperature(greet); // imprime "Hi there! Curiosity here. Right now is 5
 
 //Exercicio 6
 
-const messageDelay = () => Math.floor(Math.random() * 5000);
+/*const messageDelay = () => Math.floor(Math.random() * 5000);
 
 const getMarsTemperature = () => {
   const maxTemperature = 58;
@@ -96,4 +96,23 @@ const sendMarsTemperature = (onSuccess,onError) =>{
 sendMarsTemperature(temperatureInFahrenheit, handleError);
 
 // imprime "Hi there! Curiosity here. Right now is 53ºC at Mars", por exemplo, ou "Error getting temperature: Robot is busy"
-sendMarsTemperature(greet, handleError);
+sendMarsTemperature(greet, handleError);*/
+
+//Exercicio 7
+
+const uppercase = (str, callback) => {
+  setTimeout(() => {
+    callback(str.toUpperCase());
+  }, 500);
+};
+
+test('upperCase "test" toBe "TEST"', (done) =>{
+  uppercase('test', (str) =>{
+    try{
+      expect(str).toBe('TEST');
+      done();
+    } catch(error){
+      done(error)
+    }
+  })
+})
