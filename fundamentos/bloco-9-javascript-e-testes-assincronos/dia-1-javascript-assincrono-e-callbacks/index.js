@@ -119,7 +119,7 @@ test('upperCase "test" toBe "TEST"', (done) =>{
 
 //Exercicio 8
 
-const pokemons = [
+/*const pokemons = [
   {
     name: 'Bulbasaur',
     type: 'Grass',
@@ -165,4 +165,6 @@ getPokemonDetails(
 
 module.exports = {
   getPokemonDetails,
-};
+};*/
+
+//Exercicio 9
