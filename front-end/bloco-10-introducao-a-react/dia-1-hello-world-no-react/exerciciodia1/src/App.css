@@ -36,3 +36,19 @@
     transform: rotate(360deg);
   }
 }
+
+.cont {
+  font-style: italic;
+}
+
+.foot {
+  background-color: blueviolet;
+}
+
+.head {
+  background-color: forestgreen;
+}
+
+.card {
+  background-color: #61dafb;
+}
